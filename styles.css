@@ -36,9 +36,18 @@ body {
 
   h2{
   text-align: center;
-  font-size: 40px; 
+  font-size: 35px; 
   font-family: serif; 
-  color:white;
+  color: white;
   border:  1px solid #25591f; 
   background-color: #25591f; 
   }
+
+  .paragraph{
+  text-align: center;
+  }
+  
+
+
+
+  
