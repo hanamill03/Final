@@ -55,19 +55,23 @@ body {
   .text-wrapper {  
     float: left; 
     width: 50%; 
+    display: inline-block;
   } 
   .text-wrapper img { 
     width: 100%; 
+    display: inline-block;
   } 
 
   .text-wrapper p { 
-    text-align: center; 
+    text-align: center;
+    display: inline-block; 
   } 
   
   @media (max-width: 767px) { 
     .text-wrapper { 
       float: none; 
       width: 100%; 
+      display: inline-block;
     } 
   } 
   
