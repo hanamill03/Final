@@ -41,6 +41,34 @@
 
     <div class="contact">
         <img src="swiss-sunset.jpg" alt="Image 1">
+
+        <form action="/submit_contact_form" method="post">
+            <div class="contact-form-columns">
+              <div class="contact-form-column">
+                <label for="full-name">Full Name:</label><br>
+                <input type="text" id="full-name" name="full_name" required><br>
+                
+                <label for="phone-number">Phone Number:</label><br>
+                <input type="tel" id="phone-number" name="phone_number" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+              </div>
+              
+              <div class="contact-form-column">
+                <label for="preferred-contact-method">Preferred Contact Method:</label><br>
+                <select id="preferred-contact-method" name="preferred_contact_method" required>
+                  <option value="phone">Phone</option>
+                  <option value="email">Email</option>
+                </select><br>
+                
+                <label for="comment">Comment:</label><br>
+                <textarea id="comment" name="comment"></textarea><br>
+              </div>
+            </div>
+            
+            <input type="submit" value="Submit">
+          </form>
     </body>
 
 
