@@ -27,10 +27,13 @@ body {
 			color: black;
 			background-color: #ddd;
 			text-align: center;
-			cursor: pointer
+			cursor: pointer;
+      font-size: 40px;
+      
     
 		}
 
   h2{
-    text-align: center;
-  }
+  text-align: center;
+  font-size: 40px;  
+}
