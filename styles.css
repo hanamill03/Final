@@ -121,7 +121,7 @@ input[type="text"],
 input[type="tel"],
 input[type="email"],
 textarea {
-  width: 100%;
+  width: 70%;
   padding: 10px;
  
   border-radius: 4px;
@@ -147,7 +147,6 @@ textarea {
 
 input[type="submit"] {
   display: center;
-  background-color: #122c0f;
  
   padding: 10px 20px;
   border: none;
