@@ -67,5 +67,14 @@ body {
     height: auto;
   }
 
+  footer{
+    padding: 2rem;
+    background-color: #72601b;
+    color: var(--white);
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
 
   
