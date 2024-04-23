@@ -51,8 +51,9 @@ body {
   font-size: 30px;
   font-family: serif;
   }
+
   .container {
-    display: flex;
+    display: center;
     justify-content: space-around;
   }
   
