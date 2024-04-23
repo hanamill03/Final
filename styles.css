@@ -137,15 +137,18 @@ textarea {
 
 .preferred-contact-method-options input[type="radio"] {
   margin-right: 10px;
+  display: center;
 }
 
 .preferred-contact-method-options label {
   margin-right: 20px;
+  display: center;
 }
 
 input[type="submit"] {
+  display: center;
   background-color: #122c0f;
-  color: white;
+ 
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -153,15 +156,4 @@ input[type="submit"] {
   margin-top: 20px;
 }
 
-input[type="submit"]:hover {
-  background-color: white;
-}
 
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-textarea,
-.preferred-contact-method-options input[type="radio"] {
-  border: 1px solid #ccc;
-  border-radius: 4px
-  
