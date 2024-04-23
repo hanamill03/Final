@@ -62,6 +62,9 @@ body {
     display: inline-block;
   } 
 
+  .text-wrapper p {
+    border: #818c3c;
+  }
   .text-wrapper p { 
     text-align: center;
     display: inline-block; 
