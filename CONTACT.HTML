@@ -57,10 +57,12 @@
               
               <div class="contact-form-column">
                 <label for="preferred-contact-method">Preferred Contact Method:</label><br>
-                <select id="preferred-contact-method" name="preferred_contact_method" required>
-                  <option value="phone">Phone</option>
-                  <option value="email">Email</option>
-                </select><br>
+                <div class="preferred-contact-method-options">
+                  <input type="radio" id="phone-option" name="preferred_contact_method" value="phone" required>
+                  <label for="phone-option">Phone</label><br>
+                  <input type="radio" id="email-option" name="preferred_contact_method" value="email">
+                  <label for="email-option">Email</label><br>
+                </div>
                 
                 <label for="comment">Comment:</label><br>
                 <textarea id="comment" name="comment"></textarea><br>
