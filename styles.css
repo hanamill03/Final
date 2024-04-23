@@ -51,28 +51,19 @@ body {
   font-size: 30px;
   font-family: serif;
   }
-
-  .text-wrapper {  
-    float: left; 
-    width: 50%; 
-    justify-content: space-between;
-   
-  } 
-  .text-wrapper img { 
-    width: 100%; 
-   
-  } 
-
-  .text-wrapper p { 
-    text-align: center;
-   
-  } 
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
   
-  @media (max-width: 767px) { 
-    .text-wrapper { 
-      float: none; 
-      width: 100%; 
-    }
+  .group {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .group img {
+    width: 100%;
+    height: auto;
   }
   
 
