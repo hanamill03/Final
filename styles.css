@@ -89,4 +89,76 @@ body {
 
 }
 
+
+
+
+.contact-form-container {
+  background-color: grey;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.contact-form-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-form-column {
+  flex-basis: 45%;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #25591f;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.preferred-contact-method-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.preferred-contact-method-options input[type="radio"] {
+  margin-right: 10px;
+}
+
+.preferred-contact-method-options label {
+  margin-right: 20px;
+}
+
+input[type="submit"] {
+  background-color: #122c0f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea,
+.preferred-contact-method-options input[type="radio"] {
+  border: 1px solid #ccc;
+  border-radius: 4px
   
