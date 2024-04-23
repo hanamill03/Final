@@ -53,11 +53,13 @@ body {
   }
 
   .container {
+    float: left;
     display: center;
     justify-content: space-around;
   }
   
   .group {
+    float: left;
     flex: 1;
     text-align: center;
   }
