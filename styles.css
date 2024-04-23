@@ -91,13 +91,13 @@ body {
 
 form{
   background-color: #FBFADA;
-  ;
+  
 }
 
 
 .contact-form-container {
-  background-color: grey;
-  padding: 20px;
+  border: 1px solid #25591f;
+  padding: 15px;
   border-radius: 4px;
 }
 
@@ -123,7 +123,7 @@ input[type="email"],
 textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #25591f;
+ 
   border-radius: 4px;
   box-sizing: border-box;
   margin-bottom: 10px;
