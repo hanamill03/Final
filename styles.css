@@ -21,4 +21,6 @@
 
     h1:hover {
         background: darkgreen;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
