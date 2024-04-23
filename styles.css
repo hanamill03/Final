@@ -55,28 +55,25 @@ body {
   .text-wrapper {  
     float: left; 
     width: 50%; 
-    display: inline-block;
+    justify-content: space-between;
+   
   } 
   .text-wrapper img { 
     width: 100%; 
-    display: inline-block;
+   
   } 
 
-  .text-wrapper h3{
-    border: #818c3c;
-  }
   .text-wrapper p { 
     text-align: center;
-    display: inline-block; 
+   
   } 
   
   @media (max-width: 767px) { 
     .text-wrapper { 
       float: none; 
       width: 100%; 
-      display: inline-block;
-    } 
-  } 
+    }
+  }
   
 
 
