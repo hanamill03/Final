@@ -62,7 +62,7 @@ body {
     display: inline-block;
   } 
 
-  .text-wrapper p {
+  .text-wrapper h3{
     border: #818c3c;
   }
   .text-wrapper p { 
