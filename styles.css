@@ -38,4 +38,7 @@ body {
   text-align: center;
   font-size: 40px; 
   font-family: serif; 
-}
+  color:white;
+  border:  1px solid #25591f; 
+  background-color: #25591f; 
+  }
