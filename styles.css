@@ -89,7 +89,9 @@ body {
 
 }
 
-
+form{
+  background-color: grey;
+}
 
 
 .contact-form-container {
@@ -127,7 +129,7 @@ textarea {
 }
 
 .preferred-contact-method-options {
-  display:center;
+  display:flex;
   align-items: center;
   margin-bottom: 10px;
 }
