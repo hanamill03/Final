@@ -60,18 +60,6 @@ body {
     width: 100%; 
   } 
 
-  .text-wrapper h3 {
-    border-radius: 12px;
-    outline: 0;
-			padding-top:0px;
-      padding-bottom: 0px;
-			color: black;
-			background-color: #818c3c;
-			text-align: center;
-      font-size: 30px;
-      font-family: serif;
-     
-  }
   .text-wrapper p { 
     text-align: center; 
   } 
