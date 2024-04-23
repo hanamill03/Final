@@ -44,6 +44,15 @@ body {
   background-color: #25591f; 
   }
 
+  h3{
+    text-align: center;
+  font-size: 35px; 
+  font-family: serif; 
+  color: white;
+  border:  1px solid #818c3c; 
+  background-color: #818c3c;   
+  }
+
   .container{
   text-align: center;
   padding-left: 20px;
